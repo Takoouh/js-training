@@ -27,7 +27,7 @@ function multiply(a,x){
 
         result = result + x1;
     }
-    if ( ((a<0)&&(x>=0)) || ((x<0)&&(a>=0)) ){
+    if ( ((a<0)&&(x>0)) || ((x<0)&&(a>0)) ){
         result = -result;
     }
 
